@@ -2,19 +2,9 @@
 
 This document provides an overview of the currently open pull requests in this repository.
 
+> **Note**: This document is a snapshot as of 2025-11-07. For the most current list of open pull requests, please visit the [Pull Requests page](https://github.com/viniciusmelin/skills-scale-institutional-knowledge-using-copilot-spaces/pulls).
+
 ## Current Open Pull Requests
-
-### PR #4: Check for open pull requests
-- **Status**: Open (Draft)
-- **Branch**: `copilot/check-open-pull-requests`
-- **Created**: 2025-11-07
-- **Author**: Copilot
-- **Assignees**: @viniciusmelin, @Copilot
-- **Purpose**: Review and document open pull requests in the repository
-- **Link**: https://github.com/viniciusmelin/skills-scale-institutional-knowledge-using-copilot-spaces/pull/4
-
-**Description:**
-This PR is created to address the task of checking and documenting open pull requests in the repository. It aims to provide visibility into pending work and help track progress.
 
 ### PR #3: Create centralized README for OctoAcme Project Management Docs
 - **Status**: Open (Draft)
@@ -45,8 +35,6 @@ This PR adds a centralized README.md file to the docs/ folder to improve discove
 
 ## Summary
 
-There are currently **2 open pull requests** in this repository:
-1. One focused on documenting and reviewing open PRs (this PR)
-2. One adding documentation improvements to the OctoAcme project management docs
+As of 2025-11-07, there is **1 notable open pull request** in this repository focused on adding documentation improvements to the OctoAcme project management docs.
 
-Both PRs are in draft status and assigned to @viniciusmelin for review.
+**Note**: This document provides a point-in-time snapshot. For real-time information on all open pull requests, please check the repository's [Pull Requests page](https://github.com/viniciusmelin/skills-scale-institutional-knowledge-using-copilot-spaces/pulls).
