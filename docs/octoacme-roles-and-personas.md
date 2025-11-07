@@ -75,6 +75,132 @@ Project Managers coordinate delivery activities, manage schedules, risks, and co
 
 ---
 
+## Change Manager
+
+### Role Summary
+Oversees change control and ensures changes are evaluated, approved, communicated, and implemented with minimal disruption.
+
+### Responsibilities
+- Maintain change log and change request backlog
+- Triage and document change requests
+- Coordinate impact analysis with Project Manager, Product Owner, and Engineering leads
+- Convene change review sessions (ad-hoc or scheduled)
+- Coordinate with Release Manager for scheduling approved changes
+
+### Interactions
+- Project Manager: for impact and scheduling
+- Release Manager: for release coordination and gating
+- Stakeholder Liaison: for external stakeholder communications
+
+### Decision Authority
+Can approve non-scope-impacting changes; escalates higher-impact changes to Steering Committee or Sponsor.
+
+### Typical Deliverables
+Change Request forms, change log, change review minutes
+
+### Hand-off Acceptance Criteria
+Change has documented scope, impact assessment, and approvals recorded in the change log.
+
+---
+
+## Stakeholder Liaison
+
+### Role Summary
+Single point of contact for external stakeholders and cross-team stakeholder management.
+
+### Responsibilities
+- Maintain stakeholder contact list and communication preferences
+- Gather and synthesize stakeholder feedback
+- Escalate stakeholder concerns to Project Manager or Sponsor
+- Coordinate stakeholder demos and updates
+
+### Interactions
+- Project Manager & Product Owner: to align priorities and messaging
+- Change Manager: to reflect stakeholder impacts of proposed changes
+
+### Decision Authority
+Can request clarifications and escalate concerns; does not unilaterally change scope.
+
+### Typical Deliverables
+Stakeholder register, summary notes, stakeholder-facing updates
+
+### Hand-off Acceptance Criteria
+Stakeholder requests logged, with owner and expected response timeline assigned.
+
+---
+
+## Compliance Lead
+
+### Role Summary
+Ensures projects adhere to legal, regulatory, and organizational policy requirements.
+
+### Responsibilities
+- Identify applicable regulations and policy requirements
+- Conduct compliance reviews at initiation and major milestones
+- Maintain records and evidence of compliance checks
+- Liaise with Risk Manager for compliance-related risks
+
+### Interactions
+- Risk Manager & Project Manager: for risk treatment and mitigating plans
+- QA/Engineering: for audit evidence and implementation details
+
+### Decision Authority
+Can require additional controls or testing to meet compliance; escalates to Sponsor if remediation impacts schedule/budget.
+
+### Typical Deliverables
+Compliance checklist, audit evidence, remediation plans
+
+### Hand-off Acceptance Criteria
+Compliance checks completed and evidence attached to milestone artifacts.
+
+---
+
+## Quality Assurance Coordinator
+
+### Role Summary
+Owns cross-team QA coordination, acceptance criteria, and quality metrics for project deliverables.
+
+### Responsibilities
+- Define acceptance criteria templates and ensure they are attached to deliverables
+- Coordinate cross-team testing activities and test sign-offs
+- Track quality metrics and report status to Project Manager and Stakeholders
+- Maintain regression and test artifact registry if applicable
+
+### Interactions
+- Product Owner: to align acceptance criteria and acceptance tests
+- Engineers & Testers: to coordinate execution and defect triage
+- Compliance Lead: for compliance-related tests
+
+### Decision Authority
+Can block acceptance of a deliverable if acceptance criteria are not met; escalates to Project Manager for dispute resolution.
+
+### Typical Deliverables
+Acceptance criteria artifacts, test plans, quality dashboards
+
+### Hand-off Acceptance Criteria
+Acceptance criteria passed, with evidence in test reports and no open critical defects.
+
+---
+
+## RACI Matrix for Core Lifecycle Activities
+
+| Activity | Project Manager | Product Manager | Developer | Change Manager | Stakeholder Liaison | Compliance Lead | QA Coordinator |
+|----------|----------------|-----------------|-----------|----------------|---------------------|-----------------|----------------|
+| Initiation | A | R | C | I | C | C | I |
+| Planning | A | R | C | I | I | C | C |
+| Change Control | C | C | I | A/R | I | C | C |
+| Execution | A | C | R | I | I | I | C |
+| QA/Acceptance | C | C | I | I | I | C | A/R |
+| Release | A | I | C | C | I | C | C |
+
+**Legend:**
+- R = Responsible (Does the work)
+- A = Accountable (Ultimately answerable)
+- C = Consulted (Input requested)
+- I = Informed (Kept updated)
+
+---
+
 ## How these personas are used in the exercise
 - Use these persona definitions to frame scenarios and sample interactions in the Skills Exercise.
 - Each persona can be used as a persona prompt for Copilot Spaces to shape role-specific guidance.

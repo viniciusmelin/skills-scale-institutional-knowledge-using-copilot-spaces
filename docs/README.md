@@ -23,6 +23,14 @@ This directory contains comprehensive guides for each phase of the OctoAcme proj
 - [OctoAcme Retrospective and Continuous Improvement](octoacme-retrospective-and-continuous-improvement.md) - Learning capture and improvement tracking
 - [OctoAcme Roles and Personas](octoacme-roles-and-personas.md) - Detailed role definitions and responsibilities
 
+## Templates
+
+Practical templates and checklists to support project management activities:
+
+- [Role Onboarding Checklist](templates/role-onboarding-checklist.md) - Onboard team members into project roles
+- [Change Request Template](templates/change-request-template.md) - Document and track change requests
+- [Acceptance Criteria Template](templates/acceptance-criteria-template.md) - Define clear, testable acceptance criteria
+
 ## How to Use These Docs
 
 **For Project Teams:**
